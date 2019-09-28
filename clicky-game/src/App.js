@@ -8,7 +8,7 @@ import "./App.css";
 let correctGuesses = 0;
 let topScore = 0;
 let clickAlert =
-  "Click a character to increase your score and find out if you have what it takes to be Number 1! But beware, clicking the same character twice will result in a Game Over!";
+  "Click a Card and increase your score! But, don't click a duplicate or else it's game over!";
 
 class App extends Component {
   state = {
